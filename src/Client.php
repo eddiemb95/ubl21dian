@@ -1,10 +1,10 @@
 <?php
 
-namespace Stenfrank\UBL21dian;
+namespace eddiemb95\UBL21dian;
 
 use DOMDocument;
 use Exception;
-use Stenfrank\UBL21dian\Templates\Template;
+use eddiemb95\UBL21dian\Templates\Template;
 
 /**
  * Client.
@@ -35,7 +35,7 @@ class Client
     /**
      * Construct.
      *
-     * @param \Stenfrank\UBL21dian\Templates\Template $template
+     * @param \eddiemb95\UBL21dian\Templates\Template $template
      */
     public function __construct(Template $template)
     {

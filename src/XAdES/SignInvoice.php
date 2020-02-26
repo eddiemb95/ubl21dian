@@ -1,11 +1,11 @@
 <?php
 
-namespace Stenfrank\UBL21dian\XAdES;
+namespace eddiemb95\UBL21dian\XAdES;
 
 use DOMXPath;
 use DOMDocument;
 use Carbon\Carbon;
-use Stenfrank\UBL21dian\Sign;
+use eddiemb95\UBL21dian\Sign;
 
 /**
  * Sign Invoice.

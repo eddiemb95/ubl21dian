@@ -1,6 +1,6 @@
 <?php
 
-namespace Stenfrank\UBL21dian\XAdES;
+namespace eddiemb95\UBL21dian\XAdES;
 
 /**
  * Sign Debit Note.

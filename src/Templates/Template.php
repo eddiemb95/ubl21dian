@@ -1,10 +1,10 @@
 <?php
 
-namespace Stenfrank\UBL21dian\Templates;
+namespace eddiemb95\UBL21dian\Templates;
 
 use Exception;
-use Stenfrank\UBL21dian\Client;
-use Stenfrank\UBL21dian\BinarySecurityToken\SOAP;
+use eddiemb95\UBL21dian\Client;
+use eddiemb95\UBL21dian\BinarySecurityToken\SOAP;
 
 /**
  * Template.
@@ -28,7 +28,7 @@ class Template extends SOAP
     /**
      * Sign.
      *
-     * @return \Stenfrank\UBL21dian\BinarySecurityToken\SOAP
+     * @return \eddiemb95\UBL21dian\BinarySecurityToken\SOAP
      */
     public function sign($string = null): SOAP
     {
@@ -40,7 +40,7 @@ class Template extends SOAP
     /**
      * Sign to send.
      *
-     * @return \Stenfrank\UBL21dian\Client
+     * @return \eddiemb95\UBL21dian\Client
      */
     public function signToSend(): Client
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Stenfrank\UBL21dian\Templates\SOAP;
+namespace eddiemb95\UBL21dian\Templates\SOAP;
 
-use Stenfrank\UBL21dian\Templates\Template;
-use Stenfrank\UBL21dian\Templates\CreateTemplate;
+use eddiemb95\UBL21dian\Templates\Template;
+use eddiemb95\UBL21dian\Templates\CreateTemplate;
 
 /**
  * Send test set async.
